@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662016055302' stop='1662016056680'>
+    <name>Straight Test - Slider</name>
+    <title>Straight Test - Slider</title>
+    <test-cases>
+        <test-case start='1662016055303' status='broken' stop='1662016056679'>
+            <name>Selecting a task [Slider] and executing</name>
+            <title>Selecting a task [Slider] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1662016055399' status='passed' stop='1662016056640'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1662016055403' status='passed' stop='1662016055536'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='9d9a7b69-ea7c-487f-873d-60bf6389f98c-attachment.json' type='application/json' size='83'/>
+                                <attachment title='Response' source='ad397610-cc1c-4c07-a3c7-f915609268ea-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1662016056642' status='passed' stop='1662016056665'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0797bb6f-00c2-4917-b3ac-b1a9eacfbe58-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='77797620-df36-4921-8ad6-9a2b5b1643a5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>document is not defined</message>
+                <stack-trace>ReferenceError: document is not defined
+                    at Context.&lt;anonymous> (C:\Project\Final exam\test-cases\/slider-challenge.js:10:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

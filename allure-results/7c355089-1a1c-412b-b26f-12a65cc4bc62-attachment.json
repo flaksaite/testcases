@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > section > div.center > div.name-and-lastname > label:nth-child(4)"
+}

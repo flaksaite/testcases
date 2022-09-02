@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > section > div.center.checkboxes > div.checkboxes-box > input[type=checkbox]:nth-child(7)"
+}

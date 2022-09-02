@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661953427098' stop='1661953429314'>
+    <name>Straight Test - Slider</name>
+    <title>Straight Test - Slider</title>
+    <test-cases>
+        <test-case start='1661953427099' status='broken' stop='1661953429313'>
+            <name>Selecting a task [Slider] and executing</name>
+            <title>Selecting a task [Slider] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1661953427171' status='passed' stop='1661953428336'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1661953427175' status='passed' stop='1661953427313'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='80ee8115-45b5-4e4c-8a77-bc60e5285afd-attachment.json' type='application/json' size='83'/>
+                                <attachment title='Response' source='c4af2250-c91d-4b95-bcea-8b1dc8544412-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1661953428338' status='passed' stop='1661953428355'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0126498b-a87c-445e-b7d8-510361c5dc93-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='aa522553-11e1-41c8-9709-fe3aac947028-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661953428362' status='passed' stop='1661953428380'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='400dc557-c2c0-45bd-8479-fc7cfb115188-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='37b90c8b-c060-4d54-a33f-f672564ab129-attachment.json' type='application/json' size='1002'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661953428383' status='passed' stop='1661953428397'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='63a7c6be-ca25-4ba3-809b-bb1300676748-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='69395265-77cf-4038-9033-dc1ed2b130ce-attachment.json' type='application/json' size='1013'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661953428399' status='passed' stop='1661953428412'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='190b03d9-3132-45d2-9e7b-806aa271a8a1-attachment.json' type='application/json' size='116'/>
+                        <attachment title='Response' source='7a857bce-63ad-40f9-b2a9-59d6b382d0c5-attachment.json' type='application/json' size='1067'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661953428415' status='passed' stop='1661953429308'>
+                    <name>POST /session/:sessionId/element/596a09c2-2d54-49aa-8ee4-93e62f2ccd1a/click</name>
+                    <title>POST /session/:sessionId/element/596a09c2-2d54-49aa-8ee4-93e62f2ccd1a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>dragAndDrop is not defined</message>
+                <stack-trace>ReferenceError: dragAndDrop is not defined
+                    at Context.&lt;anonymous> (C:\Project\Final exam\test-cases\/slider-challenge.js:17:5)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

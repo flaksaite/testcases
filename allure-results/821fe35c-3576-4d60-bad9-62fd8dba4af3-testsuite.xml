@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661696477635' stop='1661696478568'>
+    <name>Straight Test - Challlengelocked</name>
+    <title>Straight Test - Challlengelocked</title>
+    <test-cases>
+        <test-case start='1661696477635' status='broken' stop='1661696478567'>
+            <name>Selecting a task [challengellocked] and executing</name>
+            <title>Selecting a task [challengellocked] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1661696477689' status='passed' stop='1661696478403'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1661696477692' status='passed' stop='1661696477831'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='d7bd27bb-5bc1-4f82-9a48-16d328afdaf1-attachment.json' type='application/json' size='41'/>
+                                <attachment title='Response' source='0282c36a-df5d-40fc-a210-ecf24d93e971-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1661696478404' status='passed' stop='1661696478433'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='628ed2cc-2a32-4830-b41e-e9cb2ad7abee-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='4490e56c-a644-4b7e-80ab-24519aff2d9d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661696478439' status='passed' stop='1661696478460'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='19b99c07-13eb-4af6-9528-5b1c3b0f5088-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='34f2694b-7ce7-4d94-82c4-1babf8a8cbec-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661696478464' status='passed' stop='1661696478479'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='37f05402-eef2-4ef7-8242-a35d57f6c5b6-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='8219d928-0c87-4d98-9f16-d8d6cad92fc2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661696478482' status='broken' stop='1661696478567'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='466e3669-a61e-4da6-ad58-280e57affa48-attachment.json' type='application/json' size='122'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "##login_button_container > div > form > div.error-message-container.error > h3" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "##login_button_container > div > form > div.error-message-container.error > h3" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\CodeAcademy\Downloads\TAFCA6\test-cases\/challenge-lockeduser.js:8:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

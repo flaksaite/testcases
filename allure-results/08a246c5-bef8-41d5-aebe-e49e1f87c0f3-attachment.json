@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > section > div.topnav.container > a > i"
+}

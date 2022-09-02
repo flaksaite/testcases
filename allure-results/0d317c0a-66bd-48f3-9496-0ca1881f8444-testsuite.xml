@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661695189061' stop='1661695190510'>
+    <name>Straight Test - Challlenge</name>
+    <title>Straight Test - Challlenge</title>
+    <test-cases>
+        <test-case start='1661695189062' status='broken' stop='1661695190507'>
+            <name>Selecting a task [challenge] and executing</name>
+            <title>Selecting a task [challenge] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1661695189192' status='passed' stop='1661695190280'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1661695189199' status='passed' stop='1661695189352'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='1294d4be-e2eb-4681-9c51-04ab126f6377-attachment.json' type='application/json' size='41'/>
+                                <attachment title='Response' source='93fb838c-dfe9-4fa1-9fa9-836c51cdb99b-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1661695190285' status='passed' stop='1661695190324'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2cbf389d-6f44-4e70-92fe-131124b91d34-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='224ace7e-fc1e-4e43-829c-b2cad797417d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661695190340' status='passed' stop='1661695190370'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f32820fb-ede8-4fc0-904b-7fda6132dbb9-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='aa8d6c7b-bade-4ccb-b02c-65c47a6486a0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661695190377' status='broken' stop='1661695190506'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='89d46ed4-3140-4052-af6d-7e4a259bb0b6-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "##login-button" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "##login-button" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\CodeAcademy\Downloads\TAFCA6\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\CodeAcademy\Downloads\TAFCA6\test-cases\/challenge-standartuser.js:7:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#checkboxes > input[type=checkbox]:nth-child(3)"
+}

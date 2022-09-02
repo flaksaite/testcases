@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661966596144' stop='1661966603424'>
+    <name>Straight Test - Flag</name>
+    <title>Straight Test - Flag</title>
+    <test-cases>
+        <test-case start='1661966596144' status='broken' stop='1661966603423'>
+            <name>Selecting a task [Numberbox] and executing</name>
+            <title>Selecting a task [Numberbox] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1661966596213' status='passed' stop='1661966597419'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1661966596217' status='passed' stop='1661966596355'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='b32e37db-1299-4ddc-be59-bd15cd364db6-attachment.json' type='application/json' size='83'/>
+                                <attachment title='Response' source='4c31f0d5-4a4c-4e0b-9b90-4df6a51cbcd3-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1661966597421' status='passed' stop='1661966597441'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d8452a7a-ce31-49bb-bb80-090e2c6b5686-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='77dee94d-6715-4143-88d6-a9f9d92ecc71-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661966597450' status='passed' stop='1661966597466'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='65a6af59-71ac-4195-a4d6-8370a9189652-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='065f5545-f0c8-466a-9c9b-46e00eb1fd82-attachment.json' type='application/json' size='1011'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661966597469' status='passed' stop='1661966597483'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b060415f-8f8a-4952-b33d-201fd4a37ae7-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='c0225ed5-02bb-4c38-9755-07f6efeaafa2-attachment.json' type='application/json' size='1011'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661966597486' status='passed' stop='1661966597498'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5de7a98c-4591-4a89-9970-f6a28b4e2025-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='cb8bc49d-c76f-4550-b41d-2f3f1ef1ac4c-attachment.json' type='application/json' size='1011'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661966597501' status='passed' stop='1661966598395'>
+                    <name>POST /session/:sessionId/element/ac858cd7-1535-47ee-a244-0c4a42077136/click</name>
+                    <title>POST /session/:sessionId/element/ac858cd7-1535-47ee-a244-0c4a42077136/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>green.isDesibled is not a function</message>
+                <stack-trace>TypeError: green.isDesibled is not a function
+                    at Context.&lt;anonymous> (C:\Project\Final exam\test-cases\/EXAM_flag.js:17:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662025065718' stop='1662025067246'>
+    <name>Straight Test - box</name>
+    <title>Straight Test - box</title>
+    <test-cases>
+        <test-case start='1662025065718' status='broken' stop='1662025067246'>
+            <name>Selecting a task [Numberbox] and executing</name>
+            <title>Selecting a task [Numberbox] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1662025065819' status='passed' stop='1662025067036'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1662025065823' status='passed' stop='1662025065967'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='39dd9bc6-c362-4b6d-889a-68e6e202ee95-attachment.json' type='application/json' size='83'/>
+                                <attachment title='Response' source='7dc02486-28a2-498f-b0f6-b9382e451c4e-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1662025067038' status='passed' stop='1662025067057'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='04d41f8f-6432-4f0b-bf61-003b3e5af89b-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='95faeaf1-e079-47a1-a83f-87936da93191-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067064' status='passed' stop='1662025067085'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7da2c0fb-518e-4206-8a81-af1c31823a59-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='a94256f2-5a0c-4c22-b68a-38f75b21e9b2-attachment.json' type='application/json' size='1005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067088' status='passed' stop='1662025067104'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='955a0762-26d5-4422-b6dc-91e13b6878dc-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='b5a3ec6e-6874-401d-871a-dfcf7aac7845-attachment.json' type='application/json' size='1072'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067107' status='passed' stop='1662025067132'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='99b2590e-8529-4f8d-abb2-9f023a68c732-attachment.json' type='application/json' size='139'/>
+                        <attachment title='Response' source='ced971f0-3cd2-4123-9668-6f7f293d235b-attachment.json' type='application/json' size='1090'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067134' status='passed' stop='1662025067151'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7db8088a-d9ab-4c26-a20d-5c3818eeb6af-attachment.json' type='application/json' size='139'/>
+                        <attachment title='Response' source='220dde74-a5b9-49f5-b963-0490833da8c6-attachment.json' type='application/json' size='1090'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067154' status='passed' stop='1662025067169'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ba4f5344-8bca-4ccd-af22-4ab7ba401089-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='465a3448-df66-4269-87b7-4a48e7388471-attachment.json' type='application/json' size='998'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067174' status='passed' stop='1662025067194'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='26cebc14-ce8a-43e2-a024-bfe20e1b9249-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='8f480f15-cb2b-4a89-bc94-8c66c74bed42-attachment.json' type='application/json' size='1007'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662025067196' status='broken' stop='1662025067246'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b2c6ba14-2220-41d7-ad80-6e221f45e4eb-attachment.json' type='application/json' size='77'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "##conf-msgvdocument.querySelector" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "##conf-msgvdocument.querySelector" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Project\Final exam\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Project\Final exam\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Project\Final exam\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Project\Final exam\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Project\Final exam\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Project\Final exam\test-cases\/EXAM_checkbox.js:22:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

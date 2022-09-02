@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1661495207618' stop='1661495209923'>
+    <name>Straight Test - Dropdown list</name>
+    <title>Straight Test - Dropdown list</title>
+    <test-cases>
+        <test-case start='1661495207618' status='broken' stop='1661495209922'>
+            <name>Selecting a task [Droptown] and executing</name>
+            <title>Selecting a task [Droptown] and executing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.102'/>
+            </parameters>
+            <steps>
+                <step start='1661495207750' status='passed' stop='1661495209550'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1661495207753' status='passed' stop='1661495207890'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='782d7bfe-5b61-4d44-bbd7-6b0753623420-attachment.json' type='application/json' size='49'/>
+                                <attachment title='Response' source='ebcefe84-a093-410d-99d5-352dc6fcbfe9-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1661495209552' status='passed' stop='1661495209570'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='231aea5d-3a35-4158-8ecb-4cac2cd36049-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='ee6428f1-347b-4bc3-9bf8-2186054d8a33-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661495209577' status='passed' stop='1661495209592'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='47a3aa74-3b8d-49c7-990d-ac9f7b7d9cab-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='2aecbe2d-e84f-417a-b450-3d553a11ff7b-attachment.json' type='application/json' size='1026'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661495209596' status='passed' stop='1661495209870'>
+                    <name>POST /session/:sessionId/element/683c7882-7bdc-4393-acc9-0ccf5ddf8607/click</name>
+                    <title>POST /session/:sessionId/element/683c7882-7bdc-4393-acc9-0ccf5ddf8607/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1661495209872' status='passed' stop='1661495209888'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8a12cdb3-5dc1-415f-b980-ea75f9879caf-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='51abb66d-002b-4a77-b2dc-fc7915919487-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661495209891' status='passed' stop='1661495209901'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='97ca0eb7-1b12-40e5-85ea-fe70135b0ce9-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='cb155e6a-2d27-43e2-af40-b4bc0aae4cb5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1661495209903' status='passed' stop='1661495209916'>
+                    <name>GET /session/:sessionId/element/b9260e0b-6938-47f6-9361-4a0ab6c17842/selected</name>
+                    <title>GET /session/:sessionId/element/b9260e0b-6938-47f6-9361-4a0ab6c17842/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='13b891b6-4e83-4a5f-ac4e-6b7ceefbef17-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>dropdownOption1 is not defined</message>
+                <stack-trace>ReferenceError: dropdownOption1 is not defined
+                    at Context.&lt;anonymous> (C:\Users\CodeAcademy\Downloads\TAFCA6\test-cases\/dropdown-list.js:18:5)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

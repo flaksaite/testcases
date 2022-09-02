@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#checkboxes > input[type=checkbox]:nth-child(1)\"}\n  (Session info: chrome=104.0.5112.102)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00F478B3+2193587]\n\tOrdinal0 [0x00EE0681+1771137]\n\tOrdinal0 [0x00DF41A8+803240]\n\tOrdinal0 [0x00E224A0+992416]\n\tOrdinal0 [0x00E2273B+993083]\n\tOrdinal0 [0x00E4F7C2+1177538]\n\tOrdinal0 [0x00E3D7F4+1103860]\n\tOrdinal0 [0x00E4DAE2+1170146]\n\tOrdinal0 [0x00E3D5C6+1103302]\n\tOrdinal0 [0x00E177E0+948192]\n\tOrdinal0 [0x00E186E6+952038]\n\tGetHandleVerifier [0x011F0CB2+2738370]\n\tGetHandleVerifier [0x011E21B8+2678216]\n\tGetHandleVerifier [0x00FD17AA+512954]\n\tGetHandleVerifier [0x00FD0856+509030]\n\tOrdinal0 [0x00EE743B+1799227]\n\tOrdinal0 [0x00EEBB68+1817448]\n\tOrdinal0 [0x00EEBC55+1817685]\n\tOrdinal0 [0x00EF5230+1856048]\n\tBaseThreadInitThunk [0x7626FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77AC7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77AC7A6E+238]\n"
+}
